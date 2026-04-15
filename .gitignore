@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Nuxt
+.nuxt/
+.output/
+.data/
+
+# Docus
+.docus/
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sync script generated files
+skills/
+content/4.skills/
+
+# Cache
+.cache/
+# Build output
+dist/

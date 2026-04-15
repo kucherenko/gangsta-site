@@ -1,0 +1,26 @@
+{
+  "name": "gangsta-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Gangsta Framework — Spec-Driven Development for AI Agents",
+  "scripts": {
+    "sync": "tsx scripts/sync-skills.ts",
+    "dev": "nuxt dev",
+    "build": "npm run sync && nuxt generate",
+    "preview": "npx serve .output/public"
+  },
+  "dependencies": {
+    "docus": "5.9.0",
+    "nuxt": "4.3.1",
+    "better-sqlite3": "12.6.2"
+  },
+  "devDependencies": {
+    "@octokit/rest": "21.1.1",
+    "tsx": "4.19.3",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
