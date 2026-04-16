@@ -24,7 +24,7 @@ import { join } from 'node:path'
 const OWNER  = process.env.GITHUB_SKILLS_OWNER  ?? 'kucherenko'
 const REPO   = process.env.GITHUB_SKILLS_REPO   ?? 'gangsta'
 const PATH   = process.env.GITHUB_SKILLS_PATH   ?? 'skills'
-const BRANCH = process.env.GITHUB_SKILLS_BRANCH ?? 'main'
+const BRANCH = process.env.GITHUB_SKILLS_BRANCH ?? 'master'
 const TOKEN  = process.env.GITHUB_TOKEN
 
 if (!TOKEN) {
