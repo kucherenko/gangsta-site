@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: Install Gangsta skills on OpenCode, Codex, or Gemini CLI.
+description: Install Gangsta skills on Claude Code, GitHub Copilot, OpenCode, Codex, or Gemini CLI.
 navigation.order: 2
 ---
 
@@ -15,20 +15,58 @@ Gangsta is a skills framework — it doesn't run as a standalone application. In
 ## Prerequisites
 
 - Git
-- An AI coding tool: OpenCode, Codex, or Gemini CLI
+- An AI coding tool: Claude Code, GitHub Copilot, OpenCode, Codex, or Gemini CLI
 - A project directory where you want to use Gangsta
 
-::callout{type="warning" icon="i-lucide-clock"}
-**Claude Code and Cursor support is in progress.** Follow [GitHub](https://github.com/kucherenko/gangsta) for updates.
+## Install for Your Platform
+
+### Claude Code
+
+Run these two slash commands inside Claude Code:
+
+::code-group
+
+```bash [1. Add marketplace]
+/plugin marketplace add kucherenko/gangsta
+```
+
+```bash [2. Install plugin]
+/plugin install gangsta@gangsta
+```
+
 ::
 
-## Install for Your Platform
+That's it — Claude Code will fetch and register all Gangsta skills automatically. Start a new session to activate them.
+
+---
+
+### GitHub Copilot
+
+Run these two slash commands inside GitHub Copilot:
+
+::code-group
+
+```bash [1. Add marketplace]
+copilot plugin marketplace add kucherenko/gangsta
+```
+
+```bash [2. Install plugin]
+copilot plugin install gangsta@gangsta-marketplace
+```
+
+::
+
+That's it — GitHub Copilot will fetch and register all Gangsta skills automatically. Start a new session to activate them.
+
+---
 
 ### OpenCode
 
 Tell OpenCode in a new session:
 
-> "Fetch and follow instructions from `https://raw.githubusercontent.com/kucherenko/gangsta/refs/heads/master/.opencode/INSTALL.md`"
+```text [Prompt OpenCode]
+Fetch and follow instructions from https://raw.githubusercontent.com/kucherenko/gangsta/refs/heads/master/.opencode/INSTALL.md
+```
 
 That's it — OpenCode will clone the repo, configure the plugin, and set up the skills path automatically.
 
@@ -59,15 +97,21 @@ Replace `/Users/you/.gangsta` with your actual clone path. The `~` shorthand wor
 
 Tell Codex in a new session:
 
-> "Fetch and follow instructions from `https://raw.githubusercontent.com/kucherenko/gangsta/refs/heads/master/.codex/INSTALL.md`"
+```text [Prompt Codex]
+Fetch and follow instructions from https://raw.githubusercontent.com/kucherenko/gangsta/refs/heads/master/.codex/INSTALL.md
+```
 
 **Prefer a manual install?**
 
-```bash
+::code-group
+
+```bash [Manual install]
 git clone https://github.com/kucherenko/gangsta.git ~/.gangsta
 mkdir -p ~/.agents/skills
 ln -sf ~/.gangsta/skills ~/.agents/skills/gangsta
 ```
+
+::
 
 Restart Codex — skills are discovered automatically from `SKILL.md` frontmatter.
 
@@ -130,3 +174,5 @@ Always update before starting a new Heist. Skill definitions evolve, and using t
 | Skills appear but produce errors | Verify skill files are `.md` format, not corrupted |
 | Partial skill invocation | Ensure the entire `skills/` directory is linked, not individual files |
 | Gemini CLI extension not found | Ensure `gemini extensions install` completed without errors |
+| Claude Code plugin not found | Ensure marketplace was added before running `/plugin install` |
+| GitHub Copilot plugin not found | Ensure marketplace was added before running `copilot plugin install` |

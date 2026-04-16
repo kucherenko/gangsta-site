@@ -118,13 +118,8 @@ Run on any AI platform.
 #description
 Install once, invoke everywhere. Your agent gets the full Borgata.
 
-| Platform | Status | Install |
-|----------|--------|---------|
-| OpenCode | ✅ Supported | Tell OpenCode: *"Fetch and follow instructions from `https://raw.githubusercontent.com/kucherenko/gangsta/refs/heads/master/.opencode/INSTALL.md`"* |
-| Codex | ✅ Supported | Tell Codex: *"Fetch and follow instructions from `https://raw.githubusercontent.com/kucherenko/gangsta/refs/heads/master/.codex/INSTALL.md`"* |
-| Gemini CLI | ✅ Supported | `gemini extensions install https://github.com/kucherenko/gangsta` |
-| Claude Code | 🚧 In Progress | [Check GitHub for updates](https://github.com/kucherenko/gangsta) |
-| Cursor | 🚧 In Progress | [Check GitHub for updates](https://github.com/kucherenko/gangsta) |
+::platform-install
+::
 
 ::
 
@@ -171,6 +166,7 @@ Violation of the Five Laws is not a warning — it's a structural failure. The f
   Code contradicts spec → revise the spec first. Never the reverse.
   :::
 ::
+
 
 ::u-page-section
 #title
