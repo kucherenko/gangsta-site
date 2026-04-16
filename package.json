@@ -11,9 +11,10 @@
     "preview": "npx serve .output/public"
   },
   "dependencies": {
+    "better-sqlite3": "12.6.2",
+    "citty": "^0.2.2",
     "docus": "5.9.0",
-    "nuxt": "4.3.1",
-    "better-sqlite3": "12.6.2"
+    "nuxt": "4.3.1"
   },
   "devDependencies": {
     "@octokit/rest": "21.1.1",
