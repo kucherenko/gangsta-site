@@ -1,7 +1,28 @@
 <template>
-  <div class="text-sm text-muted flex items-center gap-1">
-    <span>Copyright © 2026</span>
-    <button class="author-trigger" @click="open = true">Andrey Kucherenko</button>
+  <div class="footer-left">
+    <nav class="footer-nav">
+      <NuxtLink to="/" class="footer-nav__link">Docs</NuxtLink>
+      <span class="footer-nav__sep" aria-hidden="true" />
+      <NuxtLink to="/blog" class="footer-nav__link">Blog</NuxtLink>
+      <span class="footer-nav__sep" aria-hidden="true" />
+      <a
+        href="https://github.com/kucherenko/gangsta"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="footer-nav__link"
+      >GitHub</a>
+    </nav>
+
+    <p class="footer-copy">
+      © 2026
+      <button
+        class="footer-author"
+        @click="open = true"
+      >Andrey Kucherenko</button>
+      <span class="footer-copy__sep" aria-hidden="true" />
+      Omerta, or else.
+    </p>
+
     <UModal v-model:open="open">
       <template #content>
         <div class="author-modal">
@@ -38,15 +59,6 @@
                 <Icon name="i-simple-icons-x" />
                 <span>Twitter</span>
               </a>
-              <a
-                href="https://www.npmjs.com/~kucherenko"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="author-modal__social-pill"
-              >
-                <Icon name="i-simple-icons-npm" />
-                <span>npm</span>
-              </a>
             </div>
           </div>
         </div>
@@ -60,21 +72,77 @@ const open = ref(false)
 </script>
 
 <style scoped>
-.author-trigger {
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ── Navigation row ── */
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-nav__link {
+  font-size: 0.8125rem;
   font-weight: 500;
+  color: var(--site-fg);
+  opacity: 0.6;
+  text-decoration: none;
+  transition: opacity 150ms ease, color 150ms ease;
+}
+
+.footer-nav__link:hover {
+  opacity: 1;
   color: var(--color-amber-500);
-  cursor: pointer;
+}
+
+.footer-nav__sep {
+  display: block;
+  width: 1px;
+  height: 0.75rem;
+  background: var(--site-border);
+}
+
+/* ── Copyright row ── */
+.footer-copy {
+  font-size: 0.75rem;
+  color: var(--site-fg);
+  opacity: 0.4;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-copy__sep {
+  display: block;
+  width: 1px;
+  height: 0.625rem;
+  background: currentColor;
+  opacity: 0.4;
+}
+
+.footer-author {
+  font-size: inherit;
+  font-weight: 500;
+  color: inherit;
   background: none;
   border: none;
   padding: 0;
-  font-size: inherit;
-  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 150ms ease;
 }
 
-.author-trigger:hover {
+.footer-author:hover {
+  opacity: 0.7;
   text-decoration: underline;
 }
 
+/* ── Author modal ── */
 .author-modal {
   display: flex;
   flex-direction: column;
@@ -98,7 +166,7 @@ const open = ref(false)
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 3px solid var(--color-amber-500);
+  border: 2px solid var(--color-amber-500);
   object-fit: cover;
 }
 
@@ -116,15 +184,15 @@ const open = ref(false)
 }
 
 .author-modal__name {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-weight: 700;
   margin: 0;
 }
 
 .author-modal__bio {
   font-size: 0.875rem;
-  line-height: 1.6;
-  opacity: 0.8;
+  line-height: 1.65;
+  opacity: 0.75;
   margin: 0;
 }
 
@@ -145,22 +213,21 @@ const open = ref(false)
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.375rem 0.75rem;
-  border: 1px solid oklch(0.32 0.008 250);
+  padding: 0.375rem 0.875rem;
+  border: 1px solid var(--site-border);
   border-radius: 9999px;
   font-size: 0.8125rem;
   font-weight: 500;
   text-decoration: none;
+  color: var(--site-fg);
   transition:
-    background 150ms ease,
     border-color 150ms ease,
-    box-shadow 150ms ease;
-  cursor: pointer;
+    color 150ms ease;
 }
 
 .author-modal__social-pill:hover {
   border-color: var(--color-amber-500);
-  box-shadow: 0 0 12px oklch(0.780 0.188 70 / 0.2);
+  color: var(--color-amber-500);
 }
 
 .author-modal__social-pill :deep(.icon) {

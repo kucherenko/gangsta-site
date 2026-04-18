@@ -12,6 +12,28 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      meta: [
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://gangsta.page' },
+        { property: 'og:site_name', content: 'Gangsta' },
+        { property: 'og:title', content: 'Gangsta — Run AI Agents Like the Mob' },
+        {
+          property: 'og:description',
+          content:
+            'AI agent development structured like a Mafia family. Hierarchy, pipelines, and discipline — enforced. The Don approves every phase. No code ships without a signed contract.',
+        },
+        { property: 'og:image', content: 'https://gangsta.page/web-app-manifest-512x512.png' },
+        { property: 'og:image:width', content: '512' },
+        { property: 'og:image:height', content: '512' },
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:title', content: 'Gangsta — Run AI Agents Like the Mob' },
+        {
+          name: 'twitter:description',
+          content:
+            'AI agent development structured like a Mafia family. Hierarchy, pipelines, and discipline — enforced. The Don approves every phase. No code ships without a signed contract.',
+        },
+        { name: 'twitter:image', content: 'https://gangsta.page/web-app-manifest-512x512.png' },
+      ],
       link: [
         {
           rel: 'icon',

@@ -1,0 +1,29 @@
+---
+heist: gangsta-site-blog
+phase: laundering
+status: completed
+timestamp: 2026-04-18T00:00:00Z
+next-action: Don declares Heist complete. Merge branch to main.
+
+verification:
+  build: passed (client 58s, server 25s, prerender in progress at timeout — no errors)
+  debug-logging: none found
+  consigliere-verdict: APPROVE (3 LOW findings, none blocking)
+
+artifacts:
+  permanent:
+    - docs/gangsta/gangsta-site-blog/recon/2026-04-18-recon-dossier.md
+    - docs/gangsta/gangsta-site-blog/specs/2026-04-18-contract.md
+    - docs/gangsta/gangsta-site-blog/plans/2026-04-18-war-plan.md
+  code-new:
+    - content/blog/.navigation.yml
+    - content/blog/2026-04-18-welcome-to-the-borgata.md
+    - content/blog/2026-04-15-the-1-percent-rule-explained.md
+    - app/pages/blog/index.vue
+    - app/pages/blog/[...slug].vue
+    - app/components/app/AppHeaderCTA.vue
+  code-modified:
+    - app/components/app/AppFooterLeft.vue
+
+branch: heist/gangsta-site-blog
+---
