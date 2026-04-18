@@ -1,10 +1,10 @@
 ---
-title: Gangsta — Spec-Driven Development for AI Agents
-description: The AI skills framework that runs like organized crime. No cowboy coding. No shadow hotfixes. Every feature runs The Heist.
+title: Gangsta — Run AI Agents Like the Mob
+description: AI development structured like a Mafia family — hierarchy, strict pipelines, and discipline enforced. The Don approves every phase. No code ships without a contract.
 navigation: false
 seo:
-  title: Gangsta — Spec-Driven Development for AI Agents
-  description: The AI agentic framework where specs are law, the Don always approves, and code never ships without a contract.
+  title: Gangsta — Run AI Agents Like the Mob
+  description: AI agent development structured like a Mafia family. Hierarchy, pipelines, and discipline — enforced. The Don approves every phase. No code ships without a signed contract.
 ---
 
 ::u-page-hero
@@ -45,7 +45,7 @@ Every agent knows its role. Every task has a phase. Every phase gate requires th
 
   :::u-page-feature{icon="i-lucide-library" to="/skills"}
   #title
-  20 Battle-Tested Skills
+  Battle-Tested Skills
   #description
   Reconnaissance, TDD drills, interrogation debugging, exit strategies — each a pure markdown skill file.
   :::
@@ -66,9 +66,9 @@ Every agent knows its role. Every task has a phase. Every phase gate requires th
 
   :::u-page-feature{icon="i-lucide-terminal" to="/getting-started/installation"}
   #title
-  3 Platforms Supported
+  Multi-Platform Support
   #description
-  OpenCode, Codex, and Gemini CLI are fully supported. Claude Code and Cursor support is in progress.
+  Claude Code, GitHub Copilot, Gemini CLI, OpenCode, and Codex have native integrations. Cursor is supported via `npx skills add`.
   :::
 
   :::u-page-feature{icon="i-lucide-book-open" to="/core-concepts/the-ledger"}

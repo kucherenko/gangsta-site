@@ -1,0 +1,23 @@
+---
+heist: gangsta-site-blog
+phase: the-hit
+status: completed
+timestamp: 2026-04-18T00:00:00Z
+next-action: Proceed to Laundering
+completed-wps: [WP-001, WP-002, WP-003, WP-004, WP-005, WP-006]
+pending-wps: []
+failed-wps: []
+artifacts:
+  - content/blog/.navigation.yml
+  - content/blog/2026-04-18-welcome-to-the-borgata.md
+  - content/blog/2026-04-15-the-1-percent-rule-explained.md
+  - app/pages/blog/index.vue
+  - app/pages/blog/[...slug].vue
+  - app/components/app/AppHeaderCTA.vue
+  - app/components/app/AppFooterLeft.vue (modified)
+notes: |
+  - date field not in Docus docs collection SQL schema; replaced .order('date') with
+    .order('path', 'DESC') — path prefix YYYY-MM-DD gives correct chronological ordering
+  - @nuxtjs/og-image errors are pre-existing (missing @takumi-rs/core), not introduced by this heist
+  - All blog routes prerendered: /blog, /blog/YYYY-MM-DD-slug x2
+---

@@ -59,8 +59,10 @@ const platforms = [
     id: 'cursor',
     name: 'Cursor',
     icon: 'i-lucide-mouse-pointer-click',
-    status: 'coming-soon',
-    steps: [],
+    status: 'supported',
+    steps: [
+      { label: 'Install all skills via npx', code: 'npx skills add https://github.com/kucherenko/gangsta' },
+    ],
   },
 ]
 

@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: Install Gangsta skills on Claude Code, GitHub Copilot, OpenCode, Codex, or Gemini CLI.
+description: Install Gangsta skills on Claude Code, GitHub Copilot, OpenCode, Codex, Gemini CLI, or Cursor.
 navigation.order: 2
 ---
 
@@ -15,7 +15,7 @@ Gangsta is a skills framework — it doesn't run as a standalone application. In
 ## Prerequisites
 
 - Git
-- An AI coding tool: Claude Code, GitHub Copilot, OpenCode, Codex, or Gemini CLI
+- An AI coding tool: Claude Code, GitHub Copilot, OpenCode, Codex, Gemini CLI, or Cursor
 - A project directory where you want to use Gangsta
 
 ## Install for Your Platform
@@ -124,6 +124,28 @@ gemini extensions install https://github.com/kucherenko/gangsta
 ```
 
 This handles cloning, path configuration, and registration automatically.
+
+---
+
+### Cursor
+
+Cursor doesn't have a native Gangsta plugin yet. Use the `skills` utility to install all skills directly:
+
+```bash
+npx skills add https://github.com/kucherenko/gangsta
+```
+
+This installs the full Gangsta skill set into your agent's skills directory. Once done, start a new Cursor session and prompt your agent:
+
+```
+Use gangsta and build new feature
+```
+
+Cursor will pick up the skills and invoke the right ones for the task.
+
+::callout{type="info" icon="i-lucide-info"}
+`npx skills add` is also an alternative installation method for any platform listed above, if you prefer a single-command setup over platform-specific steps.
+::
 
 ---
 

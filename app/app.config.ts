@@ -1,12 +1,13 @@
 export default defineAppConfig({
   docus: {
     title: 'Gangsta',
-    description: 'Spec-Driven Development for AI Agents — The Framework that runs like organized crime.',
+    description: 'AI development structured like a Mafia family — hierarchy, strict pipelines, and discipline enforced. The Don approves every phase. No code ships without a contract.',
     url: 'https://gangsta.page',
-    image: '/og-image.png',
+    image: '/web-app-manifest-512x512.png',
     github: {
       owner: 'kucherenko',
       repo: 'gangsta',
+      url: 'https://github.com/kucherenko/gangsta',
       branch: 'main',
       root: 'skills',
       edit: true,
@@ -26,7 +27,7 @@ export default defineAppConfig({
       },
     },
     socials: {
-      github: 'https://github.com/kucherenko/gangsta',
+      github: 'kucherenko/gangsta',
     },
     toc: {
       title: 'On this page',
@@ -41,6 +42,9 @@ export default defineAppConfig({
         ],
       },
     },
+  },
+  github: {
+    url: 'https://github.com/kucherenko/gangsta',
   },
   header: {
     logo: {
