@@ -8,7 +8,7 @@ navigation.order: 3
 
 Every feature development cycle in Gangsta Agents is called a **Heist** — a structured 6-phase process that ensures specs are written before code, designs are debated before committing, and results are verified before delivery.
 
-::pipeline-flow{}
+::pipeline-flow{vertical}
 
 ## The Six Phases
 

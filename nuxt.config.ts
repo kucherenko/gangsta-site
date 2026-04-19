@@ -61,6 +61,10 @@ export default defineNuxtConfig({
     },
   },
 
+  llms: {
+    domain: 'https://gangsta.page',
+  },
+
   content: {
     navigation: {
       fields: ['description', 'icon'],

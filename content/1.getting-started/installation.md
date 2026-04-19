@@ -175,7 +175,7 @@ To update Gangsta Agents skills to the latest version:
 
 ```bash [All Platforms]
 cd ~/.gangsta
-git pull origin main
+git pull origin master
 ```
 
 ```bash [Gemini CLI]
