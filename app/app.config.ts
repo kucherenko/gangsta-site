@@ -52,7 +52,7 @@ export default defineAppConfig({
       dark: '/logo-dark.svg',
       alt: 'Gangsta',
     },
-    title: 'GANGSTA',
+    title: 'GANGSTA AGENTS',
   },
   ui: {
     colors: {
