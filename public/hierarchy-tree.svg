@@ -59,12 +59,12 @@
 <rect x="380" y="278" width="200" height="64" fill="#0f172a" stroke="#92400e" stroke-width="0.5" rx="2"/>
 <rect x="380" y="278" width="200" height="2" fill="url(#ht-gl)"/>
 <rect x="380" y="278" width="2.5" height="64" fill="#d97706" opacity="0.4" rx="2"/>
-<text x="394" y="299" font-size="13" fill="#e5c677" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Capo</text>
+<text x="394" y="299" font-size="13" fill="#e5c677" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Crew Lead</text>
 <text x="394" y="315" font-size="8.5" fill="#4b5563">gangsta:</text>
 <text x="394" y="326" font-size="8.5" fill="#4b5563">:the-capo</text>
 <line x1="480" y1="342" x2="480" y2="380" stroke="#92400e" stroke-width="1.5" marker-end="url(#ht-arr)"/>
 <rect x="340" y="380" width="280" height="64" fill="#0c0c16" stroke="#334155" stroke-width="0.8" rx="2"/>
 <rect x="340" y="380" width="280" height="2" fill="#334155" opacity="0.6"/>
-<text x="480" y="402" text-anchor="middle" font-size="13" fill="#94a3b8" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Soldiers / Associates</text>
+<text x="480" y="402" text-anchor="middle" font-size="13" fill="#94a3b8" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Workers / Associates</text>
 <text x="480" y="418" text-anchor="middle" font-size="9.5" fill="#475569" font-style="italic" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Stateless code execution</text>
 </svg>

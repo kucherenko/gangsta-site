@@ -54,7 +54,7 @@
 <text x="47" y="452" font-size="11" fill="#64748b">— "Good enough to ship" is the shared bar</text>
 <rect x="496" y="12" width="452" height="476" fill="#0d0b0a" stroke="#78350f" stroke-width="1.5" rx="4"/>
 <rect x="496" y="12" width="452" height="3" fill="url(#fva-gl)"/>
-<text x="722" y="46" text-anchor="middle" font-size="11" fill="#f59e0b" font-weight="700" letter-spacing="0.15em">GANGSTA FAMILY</text>
+<text x="722" y="46" text-anchor="middle" font-size="11" fill="#f59e0b" font-weight="700" letter-spacing="0.15em">GANGSTA AGENTS FAMILY</text>
 <text x="722" y="64" text-anchor="middle" font-size="9" fill="#a8a29e" font-style="italic">sworn bond · accountable · contract-driven</text>
 <line x1="516" y1="75" x2="928" y2="75" stroke="#292524" stroke-width="1"/>
 <rect x="612" y="87" width="220" height="48" fill="#1a1200" stroke="#f59e0b" stroke-width="2" rx="3"/>
@@ -66,9 +66,9 @@
 <text x="722" y="202" text-anchor="middle" font-size="13" fill="#fcd34d" font-weight="700">Underboss</text>
 <rect x="612" y="263" width="220" height="42" fill="#120d00" stroke="#b45309" stroke-width="1.2" rx="3"/>
 <rect x="612" y="263" width="220" height="2" fill="url(#fva-gl)"/>
-<text x="722" y="288" text-anchor="middle" font-size="13" fill="#e5c677" font-weight="700">Capo</text>
+<text x="722" y="288" text-anchor="middle" font-size="13" fill="#e5c677" font-weight="700">Crew Lead</text>
 <rect x="612" y="349" width="220" height="42" fill="#141420" stroke="#475569" stroke-width="0.8" rx="3"/>
-<text x="722" y="375" text-anchor="middle" font-size="12" fill="#94a3b8" font-weight="600">Soldiers / Associates</text>
+<text x="722" y="375" text-anchor="middle" font-size="12" fill="#94a3b8" font-weight="600">Workers / Associates</text>
 <line x1="722" y1="135" x2="722" y2="177" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#fva-aa)"/>
 <line x1="722" y1="219" x2="722" y2="263" stroke="#f59e0b" stroke-width="2" marker-end="url(#fva-aa)"/>
 <line x1="722" y1="305" x2="722" y2="349" stroke="#f59e0b" stroke-width="1.8" marker-end="url(#fva-aa)"/>

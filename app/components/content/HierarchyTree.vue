@@ -1,5 +1,5 @@
 <template>
-  <div class="hierarchy-tree" role="img" aria-label="The Borgata Hierarchy — Don, Consigliere, Underboss, Capo, Soldiers">
+  <div class="hierarchy-tree" role="img" aria-label="The Gangsta Agents Family Hierarchy — Don, Consigliere, Underboss, Crew Lead, Workers">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 450" width="100%" style="display:block;max-width:100%">
       <defs>
         <linearGradient id="ht-bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -81,25 +81,25 @@
       <text x="660" y="198" font-size="8.5" :fill="c.skillText">:the-ledger</text>
       <text x="660" y="210" font-size="8" :fill="c.outsideNote" font-style="italic">Institutional memory</text>
 
-      <!-- ── CONNECTOR: Underboss → Capo ───────────────────────────── -->
+      <!-- ── CONNECTOR: Underboss → Crew Lead ───────────────────────── -->
       <line x1="480" y1="216" x2="480" y2="278" :stroke="c.connector" stroke-width="1.5" marker-end="url(#ht-arr)"/>
 
-      <!-- ── CAPO ───────────────────────────────────────────────────── -->
+      <!-- ── CREW LEAD ───────────────────────────────────────────────── -->
       <rect x="380" y="278" width="200" height="64" :fill="c.cardBg" :stroke="c.underbossStroke" stroke-width="0.5" rx="2"/>
       <rect x="380" y="278" width="200" height="2" fill="url(#ht-gl)"/>
       <!-- Left accent bar (dimmer) -->
       <rect x="380" y="278" width="2.5" height="64" :fill="c.accentBar" opacity="0.4" rx="2"/>
-      <text x="394" y="299" font-size="13" :fill="c.capoTitle" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Capo</text>
+      <text x="394" y="299" font-size="13" :fill="c.capoTitle" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Crew Lead</text>
       <text x="394" y="315" font-size="8.5" :fill="c.skillText">gangsta:</text>
       <text x="394" y="326" font-size="8.5" :fill="c.skillText">:the-capo</text>
 
-      <!-- ── CONNECTOR: Capo → Soldiers ────────────────────────────── -->
+      <!-- ── CONNECTOR: Crew Lead → Workers ────────────────────────── -->
       <line x1="480" y1="342" x2="480" y2="380" :stroke="c.connector" stroke-width="1.5" marker-end="url(#ht-arr)"/>
 
-      <!-- ── SOLDIERS / ASSOCIATES ──────────────────────────────────── -->
+      <!-- ── WORKERS / ASSOCIATES ──────────────────────────────────── -->
       <rect x="340" y="380" width="280" height="64" :fill="c.soldierBg" :stroke="c.soldierStroke" stroke-width="0.8" rx="2"/>
       <rect x="340" y="380" width="280" height="2" :fill="c.soldierAccent" opacity="0.6"/>
-      <text x="480" y="402" text-anchor="middle" font-size="13" :fill="c.soldierTitle" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Soldiers / Associates</text>
+      <text x="480" y="402" text-anchor="middle" font-size="13" :fill="c.soldierTitle" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Workers / Associates</text>
       <text x="480" y="418" text-anchor="middle" font-size="9.5" :fill="c.soldierSub" font-style="italic" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Stateless code execution</text>
     </svg>
   </div>
@@ -141,7 +141,7 @@ const c = computed(() => {
     // Ledger
     ledgerTitle: dark ? '#f0be50' : '#b45309',
     ledgerIcon:  dark ? '#e8a020' : '#b45309',
-    // Soldiers
+    // Workers
     soldierBg:    dark ? '#080808' : '#f1f5f9',
     soldierStroke: dark ? '#2a2a2a' : '#cbd5e1',
     soldierAccent: dark ? '#2a2a2a' : '#cbd5e1',

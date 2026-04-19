@@ -10,7 +10,7 @@
     <div class="author-card__info">
       <h3 class="author-card__name">Andrey Kucherenko</h3>
       <p class="author-card__bio">
-        The Don behind the Borgata. Built Gangsta to bring order to AI agentic
+        The Don behind the Gangsta Agents Family. Built Gangsta Agents to bring order to AI agentic
         chaos — because cowboy coding is how you end up sleeping with the
         fishes.
       </p>
@@ -56,7 +56,7 @@ defineProps({
   bio: {
     type: String,
     default:
-      'The Don behind the Borgata. Built Gangsta to bring order to AI agentic chaos — because cowboy coding is how you end up sleeping with the fishes.',
+      'The Don behind the Gangsta Agents Family. Built Gangsta Agents to bring order to AI agentic chaos — because cowboy coding is how you end up sleeping with the fishes.',
   },
   avatarUrl: {
     type: String,

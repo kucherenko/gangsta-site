@@ -1,12 +1,12 @@
 ---
 title: Installation
-description: Install Gangsta skills on Claude Code, GitHub Copilot, OpenCode, Codex, Gemini CLI, or Cursor.
+description: Install Gangsta Agents skills on Claude Code, GitHub Copilot, OpenCode, Codex, Gemini CLI, or Cursor.
 navigation.order: 2
 ---
 
 # Installation
 
-Gangsta is a skills framework — it doesn't run as a standalone application. Instead, you install it into your AI coding tool so the agent can invoke skills automatically. Choose your platform below.
+Gangsta Agents is a skills framework — it doesn't run as a standalone application. Instead, you install it into your AI coding tool so the agent can invoke skills automatically. Choose your platform below.
 
 ::callout{type="info" icon="i-lucide-package"}
 **What you're installing:** A collection of Markdown-based skill files that tell your AI agent when and how to use structured development processes. No runtime dependencies, no build step, no package manager required.
@@ -16,7 +16,7 @@ Gangsta is a skills framework — it doesn't run as a standalone application. In
 
 - Git
 - An AI coding tool: Claude Code, GitHub Copilot, OpenCode, Codex, Gemini CLI, or Cursor
-- A project directory where you want to use Gangsta
+- A project directory where you want to use Gangsta Agents
 
 ## Install for Your Platform
 
@@ -36,7 +36,7 @@ Run these two slash commands inside Claude Code:
 
 ::
 
-That's it — Claude Code will fetch and register all Gangsta skills automatically. Start a new session to activate them.
+That's it — Claude Code will fetch and register all Gangsta Agents skills automatically. Start a new session to activate them.
 
 ---
 
@@ -56,7 +56,7 @@ copilot plugin install gangsta@gangsta-marketplace
 
 ::
 
-That's it — GitHub Copilot will fetch and register all Gangsta skills automatically. Start a new session to activate them.
+That's it — GitHub Copilot will fetch and register all Gangsta Agents skills automatically. Start a new session to activate them.
 
 ---
 
@@ -129,13 +129,13 @@ This handles cloning, path configuration, and registration automatically.
 
 ### Cursor
 
-Cursor doesn't have a native Gangsta plugin yet. Use the `skills` utility to install all skills directly:
+Cursor doesn't have a native Gangsta Agents plugin yet. Use the `skills` utility to install all skills directly:
 
 ```bash
 npx skills add https://github.com/kucherenko/gangsta
 ```
 
-This installs the full Gangsta skill set into your agent's skills directory. Once done, start a new Cursor session and prompt your agent:
+This installs the full Gangsta Agents skill set into your agent's skills directory. Once done, start a new Cursor session and prompt your agent:
 
 ```
 Use gangsta and build new feature
@@ -169,7 +169,7 @@ If the agent doesn't invoke the skill:
 
 ## Updating
 
-To update Gangsta skills to the latest version:
+To update Gangsta Agents skills to the latest version:
 
 ::code-group
 

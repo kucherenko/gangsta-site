@@ -36,7 +36,7 @@
           <div class="author-modal__info">
             <h3 class="author-modal__name">Andrey Kucherenko</h3>
             <p class="author-modal__bio">
-              The Don behind the Borgata. Built Gangsta to bring order to AI
+              The Don behind the Gangsta Agents Family. Built Gangsta Agents to bring order to AI
               agentic chaos — because cowboy coding is how you end up sleeping
               with the fishes.
             </p>

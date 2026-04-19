@@ -1,12 +1,12 @@
 ---
 title: Spec-Driven Development
-description: The philosophy at the core of Gangsta — spec is law, code is implementation.
+description: The philosophy at the core of Gangsta Agents — spec is law, code is implementation.
 navigation.order: 7
 ---
 
 # Spec-Driven Development
 
-**Spec is Law.** This is Omerta Law #5 and the philosophical foundation of Gangsta.
+**Spec is Law.** This is Omerta Law #5 and the philosophical foundation of Gangsta Agents.
 
 ::callout{type="warning" icon="i-lucide-scroll"}
 Code that contradicts the spec means the spec needs revision — not the other way around. Never write code without a spec.
@@ -27,7 +27,7 @@ Sound familiar? This is **shadow development** — code written without specific
 
 ## The Spec-Driven Alternative
 
-Gangsta enforces spec-driven development through the Heist Pipeline:
+Gangsta Agents enforces spec-driven development through the Heist Pipeline:
 
 | Phase | What Happens | Code Allowed? |
 |-------|-------------|----------------|
@@ -35,15 +35,15 @@ Gangsta enforces spec-driven development through the Heist Pipeline:
 | The Grilling | Debate approaches, surface risks | ❌ No |
 | The Sit-Down | Write the specification (Contract) | ❌ **Absolutely not** |
 | Resource Development | Plan tasks and allocate work | ❌ No |
-| The Hit | Implement the spec | ✅ Yes |
-| Laundering | Verify against the spec | ❌ Only review |
+| Execution | Implement the spec | ✅ Yes |
+| The Delivery | Verify against the spec | ❌ Only review |
 
-Notice that **code is only written during one phase** — The Hit. And by that point, you have:
+Notice that **code is only written during one phase** — Execution. And by that point, you have:
 
 - A Dossier that proves you understand the codebase
 - Grilling Conclusions that show you've debated alternatives
 - A signed Contract that defines exactly what will be built
-- A War Plan that breaks the work into manageable tasks
+- An Execution Plan that breaks the work into manageable tasks
 
 ## The Contract: Source of Truth
 
@@ -57,7 +57,7 @@ The Contract produced during The Sit-Down is the authoritative document. It incl
 - **Acceptance Criteria** — How to verify success
 - **Out of Scope** — What's explicitly not being built
 
-If during The Hit, a developer discovers the spec is wrong, the correct process is:
+If during Execution, a developer discovers the spec is wrong, the correct process is:
 
 1. **Stop implementation**
 2. **Revise the Contract** (with Don approval)
@@ -82,12 +82,12 @@ The Heist Pipeline is structured specifically to prevent code-first development:
 The Sit-Down (Phase 3) has an explicit rule: **NO CODE ALLOWED.** If any code appears during spec drafting, the phase must restart. This is non-negotiable.
 ::
 
-By the time code is written (The Hit), there's no ambiguity about what to build. The spec was debated (The Grilling), documented (The Sit-Down), and decomposed (Resource Development). The implementation phase is purely execution — no design decisions, no architectural debates, no scope creep.
+By the time code is written (Execution), there's no ambiguity about what to build. The spec was debated (The Grilling), documented (The Sit-Down), and decomposed (Resource Development). The implementation phase is purely execution — no design decisions, no architectural debates, no scope creep.
 
 ## Benefits
 
 - **Predictable outcomes** — The spec defines success before code is written
 - **Auditability** — Every design decision is documented with rationale
 - **No scope creep** — The Contract defines what's in scope and what's not
-- **Consistent quality** — TDD during The Hit ensures code meets the spec
+- **Consistent quality** — TDD during Execution ensures code meets the spec
 - **Team alignment** — Everyone works from the same specification

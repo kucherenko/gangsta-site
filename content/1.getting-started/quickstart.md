@@ -1,15 +1,15 @@
 ---
 title: Quickstart — Your First Heist
-description: Walk through your first Gangsta Heist cycle from start to finish.
+description: Walk through your first Gangsta Agents Heist cycle from start to finish.
 navigation.order: 3
 ---
 
 # Quickstart — Your First Heist
 
-This guide walks you through a complete Heist cycle — the Gangsta way to build a feature. By the end, you'll understand how the 6 phases work together and why structured development beats ad-hoc coding.
+This guide walks you through a complete Heist cycle — the Gangsta Agents way to build a feature. By the end, you'll understand how the 6 phases work together and why structured development beats ad-hoc coding.
 
 ::callout{type="info" icon="i-lucide-rocket"}
-**Before you start:** Make sure you've [installed Gangsta](/getting-started/installation) and verified the installation works.
+**Before you start:** Make sure you've [installed Gangsta Agents](/getting-started/installation) and verified the installation works.
 ::
 
 ## Step 1: Express Your Intent
@@ -57,25 +57,25 @@ You review and **sign the Contract** — this is the law that governs all subseq
 
 ## Step 5: Resource Development
 
-The agent decomposes the Contract into a **War Plan**:
+The agent decomposes the Contract into an **Execution Plan**:
 
 - Breaks work into parallel task packages
 - Assigns territories (domains of responsibility)
 - Allocates resources and subagents
 - Identifies dependencies between tasks
 
-You approve the War Plan, and execution begins.
+You approve the Execution Plan, and implementation begins.
 
-## Step 6: The Hit
+## Step 6: Execution
 
-Soldier subagents execute the War Plan in parallel:
+Workers implement the Execution Plan in parallel:
 
-- Each soldier implements their assigned tasks
+- Each worker implements their assigned tasks
 - Test-Driven Development (`gangsta:drill-tdd`) enforces Red-Green-Refactor
-- Budget tributes are tracked per task
+- Budgets are tracked per task
 - Code respects the Contract — deviations require a spec revision
 
-## Step 7: Laundering
+## Step 7: The Delivery
 
 The Consigliere reviews all deliverables:
 
@@ -97,9 +97,9 @@ Here's what your first Heist looks like end-to-end:
 | Reconnaissance | `gangsta:reconnaissance` | Approve Dossier | Intel report |
 | The Grilling | `gangsta:the-grilling` | Approve Consensus | Design decisions |
 | The Sit-Down | `gangsta:the-sit-down` | Sign Contract | Specification |
-| Resource Dev | `gangsta:resource-development` | Approve War Plan | Task breakdown |
-| The Hit | `gangsta:the-hit` | Approve Completion | Working code |
-| Laundering | `gangsta:laundering` | Declare Complete | Clean delivery |
+| Resource Dev | `gangsta:resource-development` | Approve Execution Plan | Task breakdown |
+| Execution | `gangsta:the-hit` | Approve Completion | Working code |
+| The Delivery | `gangsta:laundering` | Declare Complete | Clean delivery |
 
 ::callout{type="info" icon="i-lucide-external-link"}
 **Deep dive:** Read the full Heist Pipeline documentation for detailed checklists, gate conditions, and phase-specific processes.

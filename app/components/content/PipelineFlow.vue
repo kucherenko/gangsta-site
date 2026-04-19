@@ -24,7 +24,7 @@ const c = computed(() => {
 </script>
 
 <template>
-  <div class="pipeline-flow" role="img" aria-label="The Heist Pipeline — 6 phases from Reconnaissance to Laundering">
+  <div class="pipeline-flow" role="img" aria-label="The Heist Pipeline — 6 phases from Reconnaissance to The Delivery">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 200" width="100%" style="display:block;max-width:100%">
       <defs>
         <linearGradient id="pf-bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -99,16 +99,16 @@ const c = computed(() => {
       <text x="502" y="103" font-size="8.5" :fill="c.skillText">:resource-dev</text>
       <line x1="500" y1="148" x2="610" y2="148" :stroke="c.divider" stroke-width="1"/>
       <text x="502" y="158" font-size="7" :fill="c.gateLabel" letter-spacing="0.12em">GATE</text>
-      <text x="502" y="171" font-size="11" :fill="c.gateValue" font-weight="600" letter-spacing="0.04em">War Plan</text>
+      <text x="502" y="171" font-size="11" :fill="c.gateValue" font-weight="600" letter-spacing="0.04em">Exec. Plan</text>
       <!-- arrow → -->
       <line x1="619" y1="100" x2="641" y2="100" :stroke="c.arrowLine" stroke-width="1.5" marker-end="url(#pf-arr)"/>
 
-      <!-- Phase 05: The Hit -->
+      <!-- Phase 05: Execution -->
       <rect x="642" y="18" width="126" height="164" :fill="c.cardBg" :stroke="c.cardStroke" stroke-width="0.5"/>
       <rect x="642" y="18" width="126" height="2" fill="url(#pf-gl)"/>
       <circle cx="653" cy="33" r="3.5" :fill="c.dot" opacity="0.9"/>
       <text x="662" y="37" font-size="9" :fill="c.numText" font-weight="700" letter-spacing="0.1em">05</text>
-      <text x="652" y="61" font-size="12" :fill="c.titleText" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">The Hit</text>
+      <text x="652" y="61" font-size="12" :fill="c.titleText" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Execution</text>
       <text x="652" y="81" font-size="8.5" :fill="c.skillText">gangsta:</text>
       <text x="652" y="92" font-size="8.5" :fill="c.skillText">:the-hit</text>
       <line x1="650" y1="148" x2="760" y2="148" :stroke="c.divider" stroke-width="1"/>
@@ -117,12 +117,12 @@ const c = computed(() => {
       <!-- arrow → -->
       <line x1="769" y1="100" x2="791" y2="100" :stroke="c.arrowLine" stroke-width="1.5" marker-end="url(#pf-arr)"/>
 
-      <!-- Phase 06: Laundering -->
+      <!-- Phase 06: The Delivery -->
       <rect x="792" y="18" width="126" height="164" :fill="c.cardBg" :stroke="c.cardStroke" stroke-width="0.5"/>
       <rect x="792" y="18" width="126" height="2" fill="url(#pf-gl)"/>
       <circle cx="803" cy="33" r="3.5" :fill="c.dot" opacity="0.9"/>
       <text x="812" y="37" font-size="9" :fill="c.numText" font-weight="700" letter-spacing="0.1em">06</text>
-      <text x="802" y="61" font-size="12" :fill="c.titleText" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Laundering</text>
+      <text x="802" y="61" font-size="12" :fill="c.titleText" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">The Delivery</text>
       <text x="802" y="81" font-size="8.5" :fill="c.skillText">gangsta:</text>
       <text x="802" y="92" font-size="8.5" :fill="c.skillText">:laundering</text>
       <line x1="800" y1="148" x2="910" y2="148" :stroke="c.divider" stroke-width="1"/>

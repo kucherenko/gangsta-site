@@ -1,9 +1,9 @@
 ---
-title: Gangsta — Run AI Agents Like the Mob
+title: Gangsta Agents — Run AI Agents Like the Mob
 description: AI development structured like a Mafia family — hierarchy, strict pipelines, and discipline enforced. The Don approves every phase. No code ships without a contract.
 navigation: false
 seo:
-  title: Gangsta — Run AI Agents Like the Mob
+  title: Gangsta Agents — Run AI Agents Like the Mob
   description: AI agent development structured like a Mafia family. Hierarchy, pipelines, and discipline — enforced. The Don approves every phase. No code ships without a signed contract.
 ---
 
@@ -16,7 +16,7 @@ seo:
 Code Like the Mob.
 
 #description
-Gangsta is the AI skills framework for spec-driven development. No cowboy coding. No shadow hotfixes. Every feature runs The Heist — a 6-phase pipeline where specs are law and the Don always approves.
+Gangsta Agents is the AI skills framework for spec-driven development. No cowboy coding. No shadow hotfixes. Every feature runs The Heist — a 6-phase pipeline where specs are law and the Don always approves.
 
 #links
   :::u-button{color="primary" size="xl" to="/getting-started/quickstart" icon="i-lucide-arrow-right"}
@@ -30,7 +30,7 @@ Gangsta is the AI skills framework for spec-driven development. No cowboy coding
 
 ::u-page-section
 #title
-The Borgata runs AI development.
+The Gangsta Agents Family runs AI development.
 
 #description
 Every agent knows its role. Every task has a phase. Every phase gate requires the Don's approval.
@@ -40,7 +40,7 @@ Every agent knows its role. Every task has a phase. Every phase gate requires th
   #title
   Spec Before Code
   #description
-  The Sit-Down phase produces a signed Contract. No soldier writes code without one.
+  The Sit-Down phase produces a signed Contract. No worker writes code without one.
   :::
 
   :::u-page-feature{icon="i-lucide-library" to="/skills"}
@@ -61,7 +61,7 @@ Every agent knows its role. Every task has a phase. Every phase gate requires th
   #title
   Multi-Agent Orchestration
   #description
-  Underboss decomposes. Capos orchestrate. Soldiers execute in parallel. The Borgata scales.
+  Underboss decomposes. Crew Leads orchestrate. Workers execute in parallel. The Gangsta Agents Family scales.
   :::
 
   :::u-page-feature{icon="i-lucide-terminal" to="/getting-started/installation"}
@@ -75,7 +75,7 @@ Every agent knows its role. Every task has a phase. Every phase gate requires th
   #title
   Institutional Memory
   #description
-  The Ledger persists insights and fails across sessions. The Borgata never forgets.
+  The Ledger persists insights and fails across sessions. The Gangsta Agents Family never forgets.
   :::
 ::
 
@@ -97,7 +97,7 @@ Explore Each Phase
 
 ::u-page-section
 #title
-The Borgata Hierarchy
+The Gangsta Agents Family Hierarchy
 
 #description
 Clear roles. Clear chain of command. The informed minority outperforms the uninformed majority.
@@ -116,7 +116,7 @@ Understand the Hierarchy
 Run on any AI platform.
 
 #description
-Install once, invoke everywhere. Your agent gets the full Borgata.
+Install once, invoke everywhere. Your agent gets the full Gangsta Agents Family.
 
 ::platform-install
 ::
@@ -149,12 +149,12 @@ Violation of the Five Laws is not a warning — it's a structural failure. The f
   #title
   3. Rule of Truth
   #description
-  Every claim must cite its source. Uncited = stronzate.
+  Every claim must cite its source. Uncited = unverified.
   :::
 
   :::u-page-feature{icon="i-lucide-coins" to="/core-concepts/omerta"}
   #title
-  4. Rule of Tribute
+  4. Rule of Budget
   #description
   Resource budgets tracked and enforced per territory.
   :::
@@ -173,7 +173,7 @@ Violation of the Five Laws is not a warning — it's a structural failure. The f
 Get Started
 
 #description
-Install Gangsta and run your first Heist in under 5 minutes.
+Install Gangsta Agents and run your first Heist in under 5 minutes.
 
 #links
   :::u-button{color="primary" size="xl" to="/getting-started/quickstart" icon="i-lucide-arrow-right"}

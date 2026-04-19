@@ -1,12 +1,12 @@
 ---
 title: The Heist Pipeline
-description: The 6-phase development cycle that every feature goes through in Gangsta.
+description: The 6-phase development cycle that every feature goes through in Gangsta Agents.
 navigation.order: 3
 ---
 
 # The Heist Pipeline
 
-Every feature development cycle in Gangsta is called a **Heist** — a structured 6-phase process that ensures specs are written before code, designs are debated before committing, and results are verified before delivery.
+Every feature development cycle in Gangsta Agents is called a **Heist** — a structured 6-phase process that ensures specs are written before code, designs are debated before committing, and results are verified before delivery.
 
 ::pipeline-flow{}
 
@@ -46,23 +46,23 @@ Spec drafting. No code is allowed during this phase — only specification. The 
 
 **Skill:** `gangsta:resource-development`
 
-Task decomposition. The Contract is broken into parallel work packages, territories are assigned to Capos, and resources are allocated. The output is a **War Plan**.
+Task decomposition. The Contract is broken into parallel work packages, territories are assigned to Crew Leads, and resources are allocated. The output is an **Execution Plan**.
 
-**Gate:** Don approves the War Plan.
+**Gate:** Don approves the Execution Plan.
 
 [Resource Development deep dive →](/heist-pipeline/resource-development)
 
-### 5. The Hit
+### 5. Execution
 
 **Skill:** `gangsta:the-hit`
 
-Parallel execution. Soldiers implement their assigned tasks, using TDD (`gangsta:drill-tdd`) for each work package. Budget tributes are tracked. The output is **implemented code with tributes**.
+Parallel implementation. Workers implement their assigned tasks, using TDD (`gangsta:drill-tdd`) for each work package. Budgets are tracked. The output is **implemented code with budget reports**.
 
 **Gate:** Don approves completion.
 
-[The Hit deep dive →](/heist-pipeline/the-hit)
+[Execution deep dive →](/heist-pipeline/the-hit)
 
-### 6. Laundering
+### 6. The Delivery
 
 **Skill:** `gangsta:laundering`
 
@@ -70,7 +70,7 @@ Verification and integration. The Consigliere reviews all deliverables against t
 
 **Gate:** Don declares the Heist complete.
 
-[Laundering deep dive →](/heist-pipeline/laundering)
+[The Delivery deep dive →](/heist-pipeline/laundering)
 
 ## Phase Gates
 

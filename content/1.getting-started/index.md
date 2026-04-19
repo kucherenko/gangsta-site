@@ -1,12 +1,12 @@
 ---
-title: What is Gangsta?
-description: An AI agentic skills framework for spec-driven development, organized around the Borgata metaphor.
+title: What is Gangsta Agents?
+description: An AI agentic skills framework for spec-driven development, organized around the mafia family metaphor.
 navigation.order: 1
 ---
 
-# What is Gangsta?
+# What is Gangsta Agents?
 
-Gangsta is an **AI agentic skills framework** for spec-driven development. It provides a structured protocol — organized around the metaphor of a Borgata (mafia family) — that turns chaotic AI-assisted coding into disciplined, repeatable operations.
+Gangsta Agents is an **AI agentic skills framework** for spec-driven development. It provides a structured protocol — organized around the mafia family metaphor — that turns chaotic AI-assisted coding into disciplined, repeatable operations.
 
 ::callout{type="info" icon="i-lucide-lightbulb"}
 **The core idea:** Before you write a single line of code, you write a spec. Before you execute, you plan. The Heist Pipeline ensures every feature goes through reconnaissance, debate, and approval before implementation begins.
@@ -17,7 +17,7 @@ Gangsta is an **AI agentic skills framework** for spec-driven development. It pr
 The framework's single most important behavioral rule:
 
 ::callout{type="warning" icon="i-lucide-shield"}
-If there's even a **1% chance** a Gangsta skill applies to what you're doing, you **must** invoke it. No rationalizing your way around the framework.
+If there's even a **1% chance** a Gangsta Agents skill applies to what you're doing, you **must** invoke it. No rationalizing your way around the framework.
 ::
 
 This means no skipping steps, no deciding "this is too simple for a Heist," and no going straight to code. The framework exists because undisciplined AI agents produce unreliable output — the skills enforce the discipline that produces reliable results.
@@ -26,7 +26,7 @@ This means no skipping steps, no deciding "this is too simple for a Heist," and 
 
 ## The Heist Pipeline
 
-Every feature development cycle in Gangsta is called a **Heist** — a 6-phase operational process:
+Every feature development cycle in Gangsta Agents is called a **Heist** — a 6-phase operational process:
 
 ::pipeline-flow{}
 
@@ -34,8 +34,8 @@ Every feature development cycle in Gangsta is called a **Heist** — a 6-phase o
 2. **The Grilling** — Adversarial debate between proposer and devil's advocate
 3. **The Sit-Down** — Spec drafting (no code allowed)
 4. **Resource Development** — Task decomposition, infrastructure prep
-5. **The Hit** — Parallel execution by Soldiers
-6. **Laundering** — Verification, integration, Ledger update
+5. **Execution** — Parallel implementation by Workers
+6. **The Delivery** — Verification, integration, Ledger update
 
 Each phase has a **gate** — the Don (you) must approve before moving to the next phase. No auto-advancing. No skipping.
 
@@ -43,7 +43,7 @@ Each phase has a **gate** — the Don (you) must approve before moving to the ne
 
 ## 20 Skills, 5 Platforms
 
-Gangsta provides **20 skills** across three categories:
+Gangsta Agents provides **20 skills** across three categories:
 
 | Category | Skills | Purpose |
 |----------|--------|---------|
@@ -59,11 +59,11 @@ These skills run on **5 platforms**:
 - **Gemini CLI** — Extension-based install
 - **Cursor** — Follows Claude Code conventions
 
-[Install Gangsta →](/getting-started/installation)
+[Install Gangsta Agents →](/getting-started/installation)
 
 ## Spec-Driven Development
 
-At its core, Gangsta enforces **Spec-Driven Development**:
+At its core, Gangsta Agents enforces **Spec-Driven Development**:
 
 ::callout{type="info" icon="i-lucide-scroll"}
 **Spec is Law.** Code that contradicts the spec means the spec needs revision — not the other way around. Never write code without a spec.
@@ -73,8 +73,8 @@ This isn't just a preference — it's Omerta Law #5. The Heist Pipeline is speci
 
 [Learn about Omerta Laws →](/core-concepts/omerta)
 
-## New to Mafia Terminology?
+## New to the Terminology?
 
-Gangsta uses mafia metaphors throughout — Dons, Capos, Omerta, Laundering, and more. If you're unfamiliar with these terms, the glossary covers every one:
+Gangsta Agents uses mafia metaphors throughout — Dons, Crew Leads, Omerta, The Delivery, and more. If you're unfamiliar with these terms, the glossary covers every one:
 
 [Glossary →](/glossary)

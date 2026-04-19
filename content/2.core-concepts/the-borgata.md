@@ -1,12 +1,12 @@
 ---
-title: The Borgata Hierarchy
-description: The organizational structure of a Gangsta project — Don, Consigliere, Underboss, Capo, Soldier, and The Ledger.
+title: The Gangsta Agents Family Hierarchy
+description: The organizational structure of a Gangsta Agents project — Don, Consigliere, Underboss, Crew Lead, Worker, and The Ledger.
 navigation.order: 2
 ---
 
-# The Borgata Hierarchy
+# The Gangsta Agents Family Hierarchy
 
-Gangsta organizes AI agent roles around the Borgata — a mafia family hierarchy. Each role has specific responsibilities and authority levels. You (the user) are always the Don.
+Gangsta Agents organizes AI agent roles around the Gangsta Agents Family — a structured hierarchy where each role has specific responsibilities and authority levels. You (the user) are always the Don.
 
 ::hierarchy-tree{}
 
@@ -17,7 +17,7 @@ Gangsta organizes AI agent roles around the Borgata — a mafia family hierarchy
 The supreme authority. You approve every phase gate, sign every Contract, and declare every Heist complete. The framework never auto-advances without your explicit approval.
 
 - **Authority:** Final decision on all matters
-- **Responsibility:** Approve dossiers, sign contracts, approve war plans, declare heists complete
+- **Responsibility:** Approve dossiers, sign contracts, approve execution plans, declare heists complete
 - **Invokes:** Any skill, at any time
 - **Rule:** Your word is law. When instructions conflict, Don's explicit instructions override everything.
 
@@ -32,33 +32,33 @@ The strategic advisor. Outside the chain of command — provides impartial archi
 
 ### Underboss
 
-The Chief Operating Officer. Handles task decomposition, resource allocation, and planning. Dispatches work to Capos and Soldiers.
+The Chief Operating Officer. Handles task decomposition, resource allocation, and planning. Dispatches work to Crew Leads and Workers.
 
 - **Invocation:** `gangsta:the-underboss`
 - **Authority:** Task assignment and decomposition
 - **Responsibility:** Break Contracts into work packages, assign territories, manage dependencies
 - **Used for:** Resource Development phase, complex multi-task coordination
 
-### Capo
+### Crew Lead
 
-The domain crew lead. Each Capo owns a territory (a domain of the codebase) and orchestrates work within it.
+The domain crew lead. Each Crew Lead owns a territory (a domain of the codebase) and orchestrates work within it.
 
 - **Invocation:** `gangsta:the-capo`
 - **Authority:** Per-territory orchestration
-- **Responsibility:** Coordinate soldiers within a territory, enforce local quality standards
+- **Responsibility:** Coordinate workers within a territory, enforce local quality standards
 - **Used for:** Multi-file changes within a domain, territory-specific execution
 
-### Soldier (Subagent)
+### Worker (Subagent)
 
-The executor. Stateless code-execution agents that implement assigned tasks. They follow orders, write code, and run tests.
+The executor. Stateless subagents that implement assigned tasks. They follow instructions, write code, and run tests.
 
 - **Authority:** None — executes assigned tasks only
-- **Responsibility:** Implement code per the Contract and War Plan
-- **Used for:** The Hit phase — parallel code execution with TDD
+- **Responsibility:** Implement code per the Contract and Execution Plan
+- **Used for:** The Execution phase — parallel code implementation with TDD
 
 ### Associate (External Tool)
 
-External tools and API proxies. Not part of the hierarchy — they provide services that Soldiers and Capos use.
+External tools and API proxies. Not part of the hierarchy — they provide services that Workers and Crew Leads use.
 
 - **Examples:** GitHub API, database clients, CI/CD systems
 - **Used for:** Any external service interaction
@@ -79,15 +79,15 @@ The hierarchy enforces a strict chain of command:
 Don (You)
   ├── Consigliere (Advisory)
   ├── Underboss (Operations)
-  │   ├── Capo (Crew Lead)
-  │   │   └── Soldiers (Execution)
+  │   ├── Crew Lead (gangsta:the-capo)
+  │   │   └── Workers (Execution)
   │   └── Associates (External)
   └── The Ledger (Memory)
 ```
 
 This ensures:
 
-- **No rogue agents** — Soldiers only execute assigned tasks
+- **No rogue workers** — Workers only execute assigned tasks
 - **No skipped gates** — Every phase requires Don approval
 - **No lost knowledge** — The Ledger persists across sessions
 - **No architectural drift** — The Consigliere keeps the big picture

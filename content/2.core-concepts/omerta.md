@@ -6,7 +6,7 @@ navigation.order: 4
 
 # Omerta — The Five Laws
 
-Omerta is the code of silence — and in Gangsta, it's the code of governance. Five laws that prevent the chaos typical of undisciplined AI-assisted development.
+Omerta is the code of silence — and in Gangsta Agents, it's the code of governance. Five laws that prevent the chaos typical of undisciplined AI-assisted development.
 
 ::callout{type="warning" icon="i-lucide-scale"}
 These laws are always active. They're invoked via `gangsta:omerta` and govern every phase of every Heist.
@@ -16,11 +16,11 @@ These laws are always active. They're invoked via `gangsta:omerta` and govern ev
 
 **No direct agent-to-agent communication.**
 
-Agents never talk to each other directly. All communication flows through files — checkpoints, contracts, war plans. This prevents the "telephone game" problem where messages get distorted through chains of agents.
+Agents never talk to each other directly. All communication flows through files — checkpoints, contracts, execution plans. This prevents the "telephone game" problem where messages get distorted through chains of agents.
 
 **In practice:**
-- Soldiers don't message other Soldiers
-- Capos don't message other Capos
+- Workers don't message other Workers
+- Crew Leads don't message other Crew Leads
 - All coordination happens through shared files in `docs/gangsta/`
 
 ## Law 2: The Rule of Availability
@@ -30,7 +30,7 @@ Agents never talk to each other directly. All communication flows through files 
 No agent holds critical state in memory. Everything is written to disk so any agent can pick up where another left off. This is what makes Heist resumption possible.
 
 **In practice:**
-- Dossiers, Contracts, War Plans — all persisted as files
+- Dossiers, Contracts, Execution Plans — all persisted as files
 - Checkpoints written after every phase
 - Any new session can reconstruct the full state from files
 
@@ -45,15 +45,15 @@ Agents must reference where they found information. No "I think the database use
 - URLs for documentation claims
 - "I don't know" is acceptable; guessing is not
 
-## Law 4: The Rule of Tribute
+## Law 4: The Rule of Budget
 
 **Resource budgets are tracked.**
 
-Every task allocated to a Soldier has a tribute (budget) — estimated time or token cost. Tributes are tracked during The Hit to prevent runaway tasks. If a task exceeds its tribute, it must request an extension.
+Every task allocated to a Worker has a budget — estimated time or token cost. Budgets are tracked during Execution to prevent runaway tasks. If a task exceeds its budget, it must request an extension.
 
 **In practice:**
-- War Plans include tribute estimates per task
-- Soldiers report tribute consumption during execution
+- Execution Plans include budget estimates per task
+- Workers report budget consumption during execution
 - Over-budget tasks raise a flag for Don review
 
 ## Law 5: Spec is Law
@@ -64,7 +64,7 @@ This is the philosophical foundation. The Contract (spec) is the authoritative s
 
 **In practice:**
 - The Sit-Down produces the Contract
-- The Hit implements the Contract
+- Execution implements the Contract
 - Deviations require a Contract amendment, not a code-first approach
 - This ensures consistency and auditability
 
@@ -77,7 +77,7 @@ Without Omerta, AI-assisted development degenerates:
 | Agents contradict each other | Introduction Rule |
 | Lost context across sessions | Rule of Availability |
 | Hallucinated facts propagated | Rule of Truth |
-| Runaway tasks consuming resources | Rule of Tribute |
+| Runaway tasks consuming resources | Rule of Budget |
 | Code drifting from requirements | Spec is Law |
 
 These laws aren't bureaucratic overhead — they're the guardrails that make AI-assisted development reliable and repeatable.

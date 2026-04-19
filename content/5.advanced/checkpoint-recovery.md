@@ -6,7 +6,7 @@ navigation.order: 4
 
 # Checkpoint Recovery
 
-Heists can be interrupted — your AI session might time out, you might need to step away, or a technical issue might cut things short. Gangsta's checkpoint system ensures you never lose progress.
+Heists can be interrupted — your AI session might time out, you might need to step away, or a technical issue might cut things short. Gangsta Agents' checkpoint system ensures you never lose progress.
 
 ## How Checkpoints Work
 
@@ -25,14 +25,14 @@ docs/gangsta/{heist-name}/
 ├── specs/
 │   └── 2026-04-15-contract.md
 └── plans/
-    └── 2026-04-15-war-plan.md
+    └── 2026-04-15-execution-plan.md
 ```
 
 Each checkpoint records:
 - **Phase completed** — Which phase just finished
 - **Gate status** — Whether the Don approved
 - **Key decisions** — Major choices made during the phase
-- **Artifacts produced** — Dossier, Contract, War Plan, etc.
+- **Artifacts produced** — Dossier, Contract, Execution Plan, etc.
 - **Pending items** — Anything unresolved
 
 ## Resuming an Interrupted Heist
@@ -75,16 +75,16 @@ docs/gangsta/notifications/
 ├── specs/
 │   └── 2026-04-15-contract.md
 └── plans/
-    └── 2026-04-15-war-plan.md
+    └── 2026-04-15-execution-plan.md
 ```
 
 **Resume approach:**
 1. Read all checkpoints to understand the full context
-2. Read the War Plan to see which tasks were assigned
-3. Check the incomplete The Hit checkpoint for partial progress
+2. Read the Execution Plan to see which tasks were assigned
+3. Check the incomplete Execution checkpoint for partial progress
 4. Resume The Hit from where it left off, or restart if the partial work is unclear
 
-## Example: Clean Resume After Laundering
+## Example: Clean Resume After The Delivery
 
 If the Heist completed successfully and you want to build something new:
 

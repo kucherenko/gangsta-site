@@ -9,7 +9,7 @@ navigation.order: 1
 For users who have mastered the basics and want to go deeper:
 
 - **[Writing Custom Skills](/advanced/custom-skills)** — Create your own Gangsta skills using the SKILL.md format
-- **[Multi-Agent Patterns](/advanced/multi-agent-patterns)** — Use Underboss for task decomposition, Capo for territory orchestration
+- **[Multi-Agent Patterns](/advanced/multi-agent-patterns)** — Use Underboss for task decomposition, Crew Lead for territory orchestration
 - **[Checkpoint Recovery](/advanced/checkpoint-recovery)** — Resume interrupted Heists from checkpoint files
 - **[Contributing](/advanced/contributing)** — How to contribute skills to the Gangsta framework
 

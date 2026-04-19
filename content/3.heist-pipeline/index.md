@@ -1,12 +1,12 @@
 ---
 title: The Heist Pipeline
-description: The 6-phase development cycle — from reconnaissance to laundering.
+description: The 6-phase development cycle — from reconnaissance to the delivery.
 navigation.order: 1
 ---
 
 # The Heist Pipeline
 
-Every feature development cycle in Gangsta follows the same structured process — a 6-phase Heist that ensures specs are written before code, designs are debated before committing, and results are verified before delivery.
+Every feature development cycle in Gangsta Agents follows the same structured process — a 6-phase Heist that ensures specs are written before code, designs are debated before committing, and results are verified before delivery.
 
 ::pipeline-flow{}
 
@@ -17,9 +17,9 @@ Every feature development cycle in Gangsta follows the same structured process �
 | 1 | [Reconnaissance](/heist-pipeline/reconnaissance) | `gangsta:reconnaissance` | Dossier approved | Intel report |
 | 2 | [The Grilling](/heist-pipeline/the-grilling) | `gangsta:the-grilling` | Consensus approved | Design decisions |
 | 3 | [The Sit-Down](/heist-pipeline/the-sit-down) | `gangsta:the-sit-down` | Contract signed | Specification |
-| 4 | [Resource Development](/heist-pipeline/resource-development) | `gangsta:resource-development` | War Plan approved | Task breakdown |
-| 5 | [The Hit](/heist-pipeline/the-hit) | `gangsta:the-hit` | Completion approved | Working code |
-| 6 | [Laundering](/heist-pipeline/laundering) | `gangsta:laundering` | Heist complete | Clean delivery |
+| 4 | [Resource Development](/heist-pipeline/resource-development) | `gangsta:resource-development` | Execution Plan approved | Task breakdown |
+| 5 | [Execution](/heist-pipeline/the-hit) | `gangsta:the-hit` | Completion approved | Working code |
+| 6 | [The Delivery](/heist-pipeline/laundering) | `gangsta:laundering` | Heist complete | Clean delivery |
 
 ## Phase Gates
 
@@ -51,10 +51,11 @@ If a session is interrupted:
 ## The Full Cycle
 
 ```
-Reconnaissance ──→ The Grilling ──→ The Sit-Down ──→ Resource Dev ──→ The Hit ──→ Laundering
-     │                  │                  │                 │              │             │
-  Dossier          Consensus          Contract          War Plan       Code +        Clean
-  approved          approved           signed             approved      Tributes     Delivery
+Reconnaissance → The Grilling → The Sit-Down → Resource Dev → Execution → The Delivery
+     │                │                │               │            │             │
+  Dossier         Consensus        Contract       Execution     Code +         Clean
+  approved         approved          signed          Plan        Budgets      Delivery
+                                                   approved
 ```
 
 Each phase produces a concrete artifact that the next phase depends on. You cannot skip phases, and you cannot proceed without explicit approval.

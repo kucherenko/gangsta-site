@@ -1,12 +1,12 @@
 ---
 title: The Ledger
-description: Gangsta's institutional memory — insights, fails, and constitution rules that persist across sessions.
+description: Gangsta Agents' institutional memory — insights, fails, and constitution rules that persist across sessions.
 navigation.order: 6
 ---
 
 # The Ledger
 
-The Ledger is Gangsta's institutional memory. It persists across sessions, ensuring that lessons learned aren't lost when your AI session ends.
+The Ledger is Gangsta Agents' institutional memory. It persists across sessions, ensuring that lessons learned aren't lost when your AI session ends.
 
 ::callout{type="info" icon="i-lucide-book-open"}
 **Invocation:** `gangsta:the-ledger`
@@ -65,14 +65,14 @@ docs/gangsta/
     ├── specs/
     │   └── 2026-04-15-contract.md
     └── plans/
-        └── 2026-04-15-war-plan.md
+        └── 2026-04-15-execution-plan.md
 ```
 
 ## When to Write to the Ledger
 
 The Ledger is updated during two key moments:
 
-### During Laundering
+### During The Delivery
 
 The final Heist phase (`gangsta:laundering`) includes a Ledger update step. The Consigliere reviews what worked, what failed, and what rules should be added to the constitution.
 
@@ -90,7 +90,7 @@ After any significant exchange outside a Heist — if the Don shares domain know
 
 ## Proactive Memory Capture
 
-Gangsta encourages proactive memory capture:
+Gangsta Agents encourages proactive memory capture:
 
 | Situation | Action |
 |-----------|--------|
