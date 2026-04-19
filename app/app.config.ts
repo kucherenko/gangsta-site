@@ -1,7 +1,7 @@
 export default defineAppConfig({
   docus: {
-    title: 'Gangsta',
-    description: 'AI development structured like a Mafia family — hierarchy, strict pipelines, and discipline enforced. The Don approves every phase. No code ships without a contract.',
+    title: 'Gangsta Agents',
+    description: 'AI development structured like a mafia family — hierarchy, strict pipelines, and discipline enforced. The Don approves every phase. No code ships without a contract.',
     url: 'https://gangsta.page',
     image: '/web-app-manifest-512x512.png',
     github: {
@@ -50,7 +50,7 @@ export default defineAppConfig({
     logo: {
       light: '/logo-light.svg',
       dark: '/logo-dark.svg',
-      alt: 'Gangsta',
+      alt: 'Gangsta Agents',
     },
     title: 'GANGSTA AGENTS',
   },
