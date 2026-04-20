@@ -1,7 +1,7 @@
 <template>
   <div class="footer-left">
     <nav class="footer-nav">
-      <NuxtLink to="/" class="footer-nav__link">Docs</NuxtLink>
+      <NuxtLink to="/getting-started" class="footer-nav__link">Docs</NuxtLink>
       <span class="footer-nav__sep" aria-hidden="true" />
       <NuxtLink to="/blog" class="footer-nav__link">Blog</NuxtLink>
       <span class="footer-nav__sep" aria-hidden="true" />

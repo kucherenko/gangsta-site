@@ -9,14 +9,18 @@ const isBlogActive = computed(() => route.path.startsWith('/blog'))
     <NuxtLink
       to="/getting-started"
       :class="['header-nav__link', { 'header-nav__link--active': isDocsActive }]"
+      title="Docs"
     >
-      Docs
+      <Icon name="i-lucide-book-open" class="header-nav__icon" />
+      <span class="header-nav__label">Docs</span>
     </NuxtLink>
     <NuxtLink
       to="/blog"
       :class="['header-nav__link', { 'header-nav__link--active': isBlogActive }]"
+      title="Blog"
     >
-      Blog
+      <Icon name="i-lucide-newspaper" class="header-nav__icon" />
+      <span class="header-nav__label">Blog</span>
     </NuxtLink>
   </nav>
 </template>
@@ -30,7 +34,9 @@ const isBlogActive = computed(() => route.path.startsWith('/blog'))
 
 .header-nav__link {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
   padding: 0.3125rem 0.625rem;
   font-size: 0.875rem;
   font-weight: 500;
@@ -57,5 +63,21 @@ const isBlogActive = computed(() => route.path.startsWith('/blog'))
 .header-nav__link--active:hover {
   color: var(--color-amber-500);
   background: color-mix(in oklch, var(--color-amber-500) 8%, transparent);
+}
+
+.header-nav__icon {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+}
+
+.header-nav__label {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .header-nav__label {
+    display: inline;
+  }
 }
 </style>
