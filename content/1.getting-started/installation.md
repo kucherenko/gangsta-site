@@ -3,9 +3,6 @@ title: Installation
 description: Install Gangsta Agents skills on Claude Code, GitHub Copilot, OpenCode, Codex, Gemini CLI, or Cursor.
 navigation.order: 2
 ---
-
-# Installation
-
 Gangsta Agents is a skills framework — it doesn't run as a standalone application. Instead, you install it into your AI coding tool so the agent can invoke skills automatically. Choose your platform below.
 
 ::callout{type="info" icon="i-lucide-package"}

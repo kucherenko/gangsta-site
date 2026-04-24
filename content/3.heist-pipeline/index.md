@@ -3,9 +3,6 @@ title: The Heist Pipeline
 description: The 6-phase development cycle — from reconnaissance to the delivery.
 navigation.order: 1
 ---
-
-# The Heist Pipeline
-
 Every feature development cycle in Gangsta Agents follows the same structured process — a 6-phase Heist that ensures specs are written before code, designs are debated before committing, and results are verified before delivery.
 
 ::pipeline-flow{}

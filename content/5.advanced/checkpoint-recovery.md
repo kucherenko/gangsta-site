@@ -3,9 +3,6 @@ title: Checkpoint Recovery
 description: How to resume interrupted Heists from checkpoint files.
 navigation.order: 4
 ---
-
-# Checkpoint Recovery
-
 Heists can be interrupted — your AI session might time out, you might need to step away, or a technical issue might cut things short. Gangsta Agents' checkpoint system ensures you never lose progress.
 
 ## How Checkpoints Work

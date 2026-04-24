@@ -3,9 +3,6 @@ title: Writing Custom Skills
 description: Create your own Gangsta skills using the SKILL.md format and register them with your AI tool.
 navigation.order: 2
 ---
-
-# Writing Custom Skills
-
 Gangsta skills are Markdown files that tell AI agents how to perform structured tasks. You can create custom skills for your project's specific needs — domain-specific processes, team conventions, or specialized workflows.
 
 ## The SKILL.md Format

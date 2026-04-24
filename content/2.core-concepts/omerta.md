@@ -3,9 +3,6 @@ title: Omerta — The Five Laws
 description: The five governance laws that prevent chaos in AI-assisted development.
 navigation.order: 4
 ---
-
-# Omerta — The Five Laws
-
 Omerta is the code of silence — and in Gangsta Agents, it's the code of governance. Five laws that prevent the chaos typical of undisciplined AI-assisted development.
 
 ::callout{type="warning" icon="i-lucide-scale"}

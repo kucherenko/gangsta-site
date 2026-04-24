@@ -3,9 +3,6 @@ title: Advanced Topics
 description: Custom skills, multi-agent patterns, checkpoint recovery, and contributing to Gangsta.
 navigation.order: 1
 ---
-
-# Advanced Topics
-
 For users who have mastered the basics and want to go deeper:
 
 - **[Writing Custom Skills](/advanced/custom-skills)** — Create your own Gangsta skills using the SKILL.md format

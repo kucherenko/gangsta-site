@@ -3,9 +3,6 @@ title: Quickstart — Your First Heist
 description: Walk through your first Gangsta Agents Heist cycle from start to finish.
 navigation.order: 3
 ---
-
-# Quickstart — Your First Heist
-
 This guide walks you through a complete Heist cycle — the Gangsta Agents way to build a feature. By the end, you'll understand how the 6 phases work together and why structured development beats ad-hoc coding.
 
 ::callout{type="info" icon="i-lucide-rocket"}

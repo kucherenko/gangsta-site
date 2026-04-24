@@ -3,9 +3,6 @@ title: What is Gangsta Agents?
 description: An AI agentic skills framework for spec-driven development, organized around the mafia family metaphor.
 navigation.order: 1
 ---
-
-# What is Gangsta Agents?
-
 Gangsta Agents is an **AI agentic skills framework** for spec-driven development. It provides a structured protocol — organized around the mafia family metaphor — that turns chaotic AI-assisted coding into disciplined, repeatable operations.
 
 ::callout{type="info" icon="i-lucide-lightbulb"}

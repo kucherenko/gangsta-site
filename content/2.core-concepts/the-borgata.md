@@ -3,9 +3,6 @@ title: The Gangsta Agents Family Hierarchy
 description: The organizational structure of a Gangsta Agents project — Don, Consigliere, Underboss, Crew Lead, Worker, and The Ledger.
 navigation.order: 2
 ---
-
-# The Gangsta Agents Family Hierarchy
-
 Gangsta Agents organizes AI agent roles around the Gangsta Agents Family — a structured hierarchy where each role has specific responsibilities and authority levels. You (the user) are always the Don.
 
 ::hierarchy-tree{}

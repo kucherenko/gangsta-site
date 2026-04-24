@@ -3,9 +3,6 @@ title: The 1% Rule
 description: The core behavioral rule of Gangsta Agents — if there's even a 1% chance a skill applies, you must invoke it.
 navigation.order: 4
 ---
-
-# The 1% Rule
-
 The 1% Rule is the single most important rule in Gangsta Agents. It's the behavioral contract that makes the entire framework work:
 
 ::callout{type="danger" icon="i-lucide-shield"}

@@ -3,9 +3,6 @@ title: The Ledger
 description: Gangsta Agents' institutional memory — insights, fails, and constitution rules that persist across sessions.
 navigation.order: 6
 ---
-
-# The Ledger
-
 The Ledger is Gangsta Agents' institutional memory. It persists across sessions, ensuring that lessons learned aren't lost when your AI session ends.
 
 ::callout{type="info" icon="i-lucide-book-open"}

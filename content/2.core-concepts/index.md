@@ -3,9 +3,6 @@ title: Core Concepts
 description: The foundational ideas behind Gangsta Agents — the hierarchy, the pipeline, the laws, and the philosophy.
 navigation.order: 1
 ---
-
-# Core Concepts
-
 Gangsta Agents is built on six foundational concepts that work together to create disciplined, structured AI-assisted development:
 
 1. **[The Gangsta Agents Family Hierarchy](/core-concepts/the-borgata)** — The organizational structure that defines who does what: Don, Consigliere, Underboss, Crew Lead, Worker, and The Ledger.

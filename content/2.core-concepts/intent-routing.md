@@ -3,9 +3,6 @@ title: Intent Routing
 description: How Gangsta Agents maps user intent to the right skill invocation.
 navigation.order: 5
 ---
-
-# Intent Routing
-
 When you speak, the agent analyzes your intent and routes it to the appropriate Gangsta Agents skill. This routing is automatic — powered by the 1% Rule — but understanding the mapping helps you work more effectively.
 
 ## Intent → Skill Mapping

@@ -3,9 +3,6 @@ title: Contributing
 description: How to contribute skills to the Gangsta framework.
 navigation.order: 5
 ---
-
-# Contributing
-
 Gangsta is open source (MIT) and welcomes contributions — especially new skills that follow the established patterns.
 
 ## What You Can Contribute

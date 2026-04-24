@@ -3,9 +3,6 @@ title: Spec-Driven Development
 description: The philosophy at the core of Gangsta Agents — spec is law, code is implementation.
 navigation.order: 7
 ---
-
-# Spec-Driven Development
-
 **Spec is Law.** This is Omerta Law #5 and the philosophical foundation of Gangsta Agents.
 
 ::callout{type="warning" icon="i-lucide-scroll"}

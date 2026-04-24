@@ -3,9 +3,6 @@ title: Multi-Agent Patterns
 description: How to use the Underboss and Crew Lead for task decomposition and territory orchestration.
 navigation.order: 3
 ---
-
-# Multi-Agent Patterns
-
 When a Heist involves multiple files, multiple domains, or multiple concerns, the Gangsta Agents hierarchy provides structured patterns for multi-agent coordination.
 
 ## The Two Orchestration Skills
