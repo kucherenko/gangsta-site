@@ -10,13 +10,33 @@ Every feature development cycle in Gangsta Agents follows the same structured pr
 ## Phase Overview
 
 | # | Phase | Skill | Gate | Output |
-|---|-------|-------|------|--------|
+|---|---|---|---|---|
 | 1 | [Reconnaissance](/heist-pipeline/reconnaissance) | `gangsta:reconnaissance` | Dossier approved | Intel report |
 | 2 | [The Grilling](/heist-pipeline/the-grilling) | `gangsta:the-grilling` | Consensus approved | Design decisions |
 | 3 | [The Sit-Down](/heist-pipeline/the-sit-down) | `gangsta:the-sit-down` | Contract signed | Specification |
 | 4 | [Resource Development](/heist-pipeline/resource-development) | `gangsta:resource-development` | Execution Plan approved | Task breakdown |
 | 5 | [Execution](/heist-pipeline/the-hit) | `gangsta:the-hit` | Completion approved | Working code |
 | 6 | [The Delivery](/heist-pipeline/laundering) | `gangsta:laundering` | Heist complete | Clean delivery |
+
+## The Six Phases
+
+### 1. Reconnaissance
+Gather intel on the codebase, requirements, dependencies, and existing patterns before writing a single line of code. [Explore Reconnaissance →](/heist-pipeline/reconnaissance)
+
+### 2. The Grilling
+Run an adversarial debate between a proposer and a devil's advocate to stress-test designs before committing to implementation. [Explore The Grilling →](/heist-pipeline/the-grilling)
+
+### 3. The Sit-Down
+Draft the formal specification — no code allowed. The Contract becomes the binding spec that governs all subsequent implementation. [Explore The Sit-Down →](/heist-pipeline/the-sit-down)
+
+### 4. Resource Development
+Decompose the spec into work packages, assign territories, and prepare the infrastructure for parallel execution. [Explore Resource Development →](/heist-pipeline/resource-development)
+
+### 5. Execution
+Workers implement the approved work packages in parallel, with strict TDD enforcement and real-time progress reporting to Crew Leads. [Explore Execution →](/heist-pipeline/the-hit)
+
+### 6. The Delivery
+Verify, integrate, lint, test, and update the Ledger. Clean output only — no dirty code gets merged. [Explore The Delivery →](/heist-pipeline/laundering)
 
 ## Phase Gates
 
