@@ -5,6 +5,7 @@ navigation.order: 1
 ---
 For users who have mastered the basics and want to go deeper:
 
+- **[Artifacts Reference](/advanced/artifacts)** — Every file Gangsta generates, where it lives, and which phase produces it
 - **[Writing Custom Skills](/advanced/custom-skills)** — Create your own Gangsta skills using the SKILL.md format
 - **[Multi-Agent Patterns](/advanced/multi-agent-patterns)** — Use Underboss for task decomposition, Crew Lead for territory orchestration
 - **[Checkpoint Recovery](/advanced/checkpoint-recovery)** — Resume interrupted Heists from checkpoint files
