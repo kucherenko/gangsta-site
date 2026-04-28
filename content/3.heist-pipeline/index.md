@@ -63,7 +63,7 @@ The 1% Rule triggers `gangsta:reconnaissance` automatically. From there, each ph
 
 Use the `/gangsta:heist` slash command to run phases 1–4 end-to-end without pausing at each gate:
 
-> `/gangsta:heist user-notifications`
+> `/gangsta:heist make a user notifications system with push notification delivery`
 
 The Don Proxy approves each gate on your behalf. When the Contract and Execution Plan are ready, you sign with `/gangsta:go` to execute phases 5–6. [Full Autonomous Mode docs →](/advanced/autonomous-mode)
 
@@ -71,7 +71,7 @@ The Don Proxy approves each gate on your behalf. When the Contract and Execution
 
 | Command | Phases | Purpose |
 |---|---|---|
-| `/gangsta:heist <feature>` | 1–4 | Run Reconnaissance through Resource Development autonomously |
+| `/gangsta:heist <description>` | 1–4 | Run Reconnaissance through Resource Development autonomously |
 | `/gangsta:go [feature]` | 5–6 | Sign the Contract and execute The Hit + The Delivery |
 | `/gangsta:abort <feature>` | — | Halt the Heist and archive it |
 

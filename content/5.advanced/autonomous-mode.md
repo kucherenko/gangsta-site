@@ -13,18 +13,18 @@ Autonomous Mode runs the same 6-phase Heist Pipeline, but with `gangsta:don-prox
 
 Autonomous Mode uses **two commands** that split the Heist into two runs:
 
-1. **`/gangsta:heist <feature>`** — Runs phases 1–4 (Reconnaissance → Grilling → Sit-Down → Resource Development). The Don Proxy approves each gate, producing a Contract and Execution Plan.
+1. **`/gangsta:heist <description>`** — Runs phases 1–4 (Reconnaissance → Grilling → Sit-Down → Resource Development). The Don Proxy approves each gate, producing a Contract and Execution Plan.
 2. **`/gangsta:go [feature]`** — You review and sign the Contract, then phases 5–6 (The Hit → Laundering) execute.
 3. **`/gangsta:abort <feature>`** — Halts the Heist at any point and archives it.
 
 ```
-/gangsta:heist <feature>
+/gangsta:heist make a user notifications system with push notification delivery
   Phase 1: Reconnaissance ──── don-proxy approves ──→ auto-advance
   Phase 2: The Grilling ────── don-proxy approves ──→ auto-advance
   Phase 3: The Sit-Down ─────── dual-veto gate ────→ auto-advance
   Phase 4: Resource Development ─ don-proxy approves ──→ PAUSE
 
-/gangsta:go <feature>
+/gangsta:go user-notifications
   You sign the Contract and Plan
   Phase 5: The Hit ──────────── Workers execute ────→ auto-advance
   Phase 6: Laundering ────────── don-proxy declares ──→ COMPLETE
@@ -56,9 +56,13 @@ There is no tie-breaker, no precedence, no override. A veto from either party is
 
 ## Command Reference
 
-### `/gangsta:heist <feature>`
+### `/gangsta:heist <description>`
 
-Starts an autonomous Heist for the named feature. Runs phases 1–4 end-to-end without pausing.
+Starts an autonomous Heist. The description can be a feature name or a natural language description of what you want built:
+
+> `/gangsta:heist make a user notifications system with push notification delivery`
+
+The pipeline derives the Heist directory name from the description and runs phases 1–4 end-to-end without pausing.
 
 - Creates the Heist directory: `docs/gangsta/<feature>/`
 - Produces: Dossier, Grilling Conclusions, Contract, Execution Plan
@@ -163,7 +167,7 @@ Both `/gangsta:go` and `/gangsta:abort` resolve the target Heist by **exact dire
 |---|---|---|
 | Gate approval | Human Don at every phase | Don Proxy (phases 1–4), Human Don (signing), Don Proxy (phases 5–6) |
 | Phase transition | Manual after each gate | Automatic between phases |
-| Starting command | Express building intent or `gangsta:reconnaissance` | `/gangsta:heist <feature>` |
+| Starting command | Express building intent or `gangsta:reconnaissance` | `/gangsta:heist <description>` |
 | Signing | Human Don at each gate | Human Don signs via `/gangsta:go` |
 | Halting | Reject at any gate | `/gangsta:abort` or Constitutional Floor REJECT |
 | Abort handling | Manual cleanup | Automatic archival to `.aborted/` |
